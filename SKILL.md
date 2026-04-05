@@ -1,11 +1,11 @@
 ---
-name: openclaw-self-healing-v2
-description: 增強版自我修復系統。備份/恢復 + 4-tier 修復 + 指數退避。適用於交易系統等需要高可用性的 OpenClaw 部署。
+name: openclaw-auto-heal
+description: OpenClaw 自動修復系統。備份/恢復 + 4-tier 修復 + 指數退避。專為交易系統等需要高可用性的 OpenClaw 部署設計。
 ---
 
-# OpenClaw Self-Healing System v2
+# OpenClaw Auto-Heal System
 
-增強版自我修復系統，整合備份/恢復功能。
+自動修復系統，強調預防勝於治療。
 
 ## 功能
 
@@ -28,20 +28,11 @@ Level 4: 人類通知
 ## 使用方式
 
 ```bash
-# 健康檢查
-self-heal check
-
-# 備份配置
-self-heal backup
-
-# 自動修復
-self-heal heal
-
-# 查看狀態
-self-heal status
-
-# 持續監控
-self-heal monitor
+auto_heal check   # 健康檢查
+auto_heal backup  # 備份配置
+auto_heal heal    # 自動修復
+auto_heal status  # 查看狀態
+auto_heal monitor # 持續監控
 ```
 
 ## 檔案位置
