@@ -1,0 +1,15 @@
+# 備份目錄
+/tmp/openclaw_backups/
+
+# 日誌
+*.log
+
+# 系統文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
